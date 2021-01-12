@@ -1,0 +1,133 @@
+.main{
+    width:794px; height:1000px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.head_A{
+    border-top: 2px solid black;
+    font-size: medium;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.head_A div p {
+    margin-bottom: 0px !important;
+}
+.section{
+    background-color: lightgray;
+}
+.inner-row{
+    border: 2px solid black;
+
+}
+.numberBox{
+    border: 2px solid black;
+    width: 17px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    border: 2PX solid black;
+    max-width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.row-1{
+    display: flex;
+}
+.title{
+    display: inline-block;
+    font-size: 11px;
+    display: inline-block;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.text-field1, .text-field2, .text-field3, .text-field4, .text-field5, .text-field6, .text-field7{
+    padding-left: 23px;
+    padding-right: 2px;
+
+}
+.text-field1 input,.text-field3 input, .text-field4 input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    background-color: lightskyblue;
+  
+}
+.text-field2 input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    background-color: lightgreen;
+}
+.text-field5 input, .text-field6 input,.text-field7 input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 25px;
+    background-color: lightskyblue;
+}
+.two-column{
+    display: flex;
+}
+.block1{
+    display: flex;
+    border: 1PX solid black;
+    max-width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.inner-block{
+    border: 1px solid black;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.inner-block-index{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.inner-block input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    background-color: lightskyblue;
+}
+.check-Boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 23px;
+    width: 100%;
+    height: 25px;
+}
+.check-Boxes1{
+    display: inline;
+    justify-content: space-around;
+    padding-left: 23px;
+    width: 100%;
+    height: 40px;
+}
+.check-Boxes1 div {
+    padding-left: 23px;
+    padding-right: 10px;
+    display: inline-block;
+    align-items: center;
+}
